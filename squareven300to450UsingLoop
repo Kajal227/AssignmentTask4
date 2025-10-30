@@ -1,0 +1,18 @@
+package com.tka.AssignmentFour;
+
+public class squareven300to450
+{
+
+	public static void main(String[] args)
+	{
+	
+		for(int num=300;num<450;num++)
+		{
+			if(num%2==0)
+			{
+				int squar=num*num;
+				System.out.println(squar);
+			}
+		}
+	}
+}
