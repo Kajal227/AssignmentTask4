@@ -1,0 +1,21 @@
+package com.tka.LoopIn.Condition;
+
+public class SumDivi4and7from233to344 
+{
+
+	public static void main(String[] args) 
+	{
+	
+		int sum=0;
+		
+		for(int num=233;num<=344;num++)
+		{
+			if(num %4==0 && num %7==0)
+			{
+				sum=sum+num;
+				System.out.println(sum);
+
+			}
+		}
+	}
+}
