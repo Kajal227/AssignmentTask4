@@ -1,0 +1,22 @@
+package com.tka.LoopIn.Condition;
+
+public class ProductEven12to33 
+{
+
+	public static void main(String[] args)
+	{
+	
+		long product=1;
+		
+		for(int num=12;num<=33;num++)
+		{
+			if(num%2==0)
+			{
+				product*=num;
+
+			}
+		}
+		System.out.println(product);
+
+	}
+}
